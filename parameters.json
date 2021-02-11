@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "settingName": {
+            "value": "ActivityLogs2LA"
+        },
+        "workspaceId": {
+            "value": "/subscriptions/e0c7e37c-f166-4e38-884d-dcdf0e8f7518/resourcegroups/mgmt-oms-shared/providers/microsoft.operationalinsights/workspaces/mgmt-activitylogs-la-shared-aae"
+        }
+    }
+}
