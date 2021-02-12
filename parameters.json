@@ -7,6 +7,7 @@
         },
         "subscriptionId": {
             "value": "7b17b320-0a15-42bd-ab95-e69c13d22718"
+        },
         "workspaceId": {
             "value": "/subscriptions/e0c7e37c-f166-4e38-884d-dcdf0e8f7518/resourcegroups/mgmt-oms-shared/providers/microsoft.operationalinsights/workspaces/mgmt-activitylogs-la-shared-aae"
         }
