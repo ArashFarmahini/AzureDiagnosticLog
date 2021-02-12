@@ -17,7 +17,7 @@
             "type": "Microsoft.Insights/diagnosticSettings",
             "apiVersion": "2017-05-01-preview",
             "name": "[parameters('settingName')]",
-            "subscriptionId": "[parameters('subscriptionId')]",
+            "subscriptionId": "7b17b320-0a15-42bd-ab95-e69c13d22718",
             "properties": {
                 "workspaceId": "[parameters('workspaceId')]",
                 "logs": [
