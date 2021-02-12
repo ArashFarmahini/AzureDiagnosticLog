@@ -5,6 +5,9 @@
         "settingName": {
             "type": "String"
         },
+        "subscriptionId":{
+            "type": "String"
+        },
         "workspaceId": {
             "type": "String"
         }
@@ -14,6 +17,7 @@
             "type": "Microsoft.Insights/diagnosticSettings",
             "apiVersion": "2017-05-01-preview",
             "name": "[parameters('settingName')]",
+            "subscriptionId": "[parameters('subscriptionId')]",
             "properties": {
                 "workspaceId": "[parameters('workspaceId')]",
                 "logs": [
