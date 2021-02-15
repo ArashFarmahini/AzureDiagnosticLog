@@ -5,9 +5,6 @@
         "settingName": {
             "type": "String"
         },
-        "subscriptionId":{
-            "type": "String"
-        },
         "workspaceId": {
             "type": "String"
         }
